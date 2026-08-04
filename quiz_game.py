@@ -388,3 +388,5 @@ class QuizGame:
             except Exception as e:
                 print(f"\n[예외 발생] 오류가 발생했습니다: {e}")
                 print("메인 메뉴로 돌아갑니다.")
+
+# feature branch update
