@@ -1,0 +1,9 @@
+__pycache__/
+*.py[cod]
+.vscode/
+.idea/
+.DS_Store
+.env
+
+# Broken state backup files ignore pattern
+state.json.broken*
