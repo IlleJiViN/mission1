@@ -1,0 +1,159 @@
+{
+    "quizzes": [
+        {
+            "question": "Python에서 리스트(List)를 생성할 때 사용하는 괄호 기호는 무엇인가요?",
+            "choices": [
+                "( ) 소괄호",
+                "[ ] 대괄호",
+                "{ } 중괄호",
+                "< > 화살괄호"
+            ],
+            "answer": 2,
+            "category": "Python",
+            "difficulty": "쉬움"
+        },
+        {
+            "question": "PEP 8 가이드에 따라 Python 변수 및 함수 이름에 권장되는 명명 규칙은 무엇인가요?",
+            "choices": [
+                "camelCase",
+                "PascalCase",
+                "snake_case",
+                "kebab-case"
+            ],
+            "answer": 3,
+            "category": "Python",
+            "difficulty": "쉬움"
+        },
+        {
+            "question": "Git에서 현재 스테이징 영역에 올라온 변경 사항을 커밋 메시지와 함께 기록하는 명령어는?",
+            "choices": [
+                "git add",
+                "git commit",
+                "git push",
+                "git checkout"
+            ],
+            "answer": 2,
+            "category": "Git",
+            "difficulty": "쉬움"
+        },
+        {
+            "question": "다음 중 표준 JSON 형식에서 공식 지원하지 않는 데이터 타입은 무엇인가요?",
+            "choices": [
+                "문자열 (String)",
+                "숫자 (Number)",
+                "Python 튜플 (Tuple)",
+                "불리언 (Boolean)"
+            ],
+            "answer": 3,
+            "category": "JSON",
+            "difficulty": "보통"
+        },
+        {
+            "question": "Python에서 딕셔너리(Dictionary) 자료형을 표현할 때 사용하는 기호는 무엇인가요?",
+            "choices": [
+                "( ) 소괄호",
+                "[ ] 대괄호",
+                "{ } 중괄호",
+                "< > 화살괄호"
+            ],
+            "answer": 3,
+            "category": "Python",
+            "difficulty": "쉬움"
+        },
+        {
+            "question": "Git에서 새로운 브랜치를 생성함과 동시에 해당 브랜치로 이동하는 명령어는 무엇인가요?",
+            "choices": [
+                "git branch new-branch",
+                "git checkout -b new-branch",
+                "git merge new-branch",
+                "git pull origin main"
+            ],
+            "answer": 2,
+            "category": "Git",
+            "difficulty": "보통"
+        },
+        {
+            "question": "Python 표준 라이브러리 중 JSON 직렬화 및 역직렬화를 지원하는 모듈 이름은 무엇인가요?",
+            "choices": [
+                "sys",
+                "os",
+                "json",
+                "pathlib"
+            ],
+            "answer": 3,
+            "category": "JSON",
+            "difficulty": "쉬움"
+        },
+        {
+            "question": "Python에서 조건 분기를 작성할 때 첫 번째 조건 이후 추가 조건을 검사하는 키워드는?",
+            "choices": [
+                "else if",
+                "elif",
+                "then",
+                "switch"
+            ],
+            "answer": 2,
+            "category": "Python",
+            "difficulty": "쉬움"
+        },
+        {
+            "question": "원격 Git 저장소를 내 컴퓨터 로컬 환경에 새로 복제(다운로드)할 때 사용하는 명령어는?",
+            "choices": [
+                "git init",
+                "git clone",
+                "git status",
+                "git log"
+            ],
+            "answer": 2,
+            "category": "Git",
+            "difficulty": "쉬움"
+        },
+        {
+            "question": "Python에서 사용자 정의 함수(Function)를 선언할 때 사용하는 키워드는 무엇인가요?",
+            "choices": [
+                "func",
+                "function",
+                "def",
+                "define"
+            ],
+            "answer": 3,
+            "category": "Python",
+            "difficulty": "쉬움"
+        },
+        {
+            "question": "1+ 은?",
+            "choices": [
+                "3",
+                "5",
+                "4",
+                "2"
+            ],
+            "answer": 3,
+            "category": "일반",
+            "difficulty": "어려움"
+        }
+    ],
+    "best_score": 100,
+    "best_correct": 3,
+    "best_total": 3,
+    "history": [
+        {
+            "played_at": "2026-08-04T17:16:08",
+            "score": 80,
+            "correct": 4,
+            "total": 5
+        },
+        {
+            "played_at": "2026-08-04T17:36:40",
+            "score": 50,
+            "correct": 1,
+            "total": 2
+        },
+        {
+            "played_at": "2026-08-04T17:38:18",
+            "score": 100,
+            "correct": 3,
+            "total": 3
+        }
+    ]
+}
