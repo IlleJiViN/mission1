@@ -305,6 +305,15 @@ class QuizGame:
         except ValueError as err:
             print(f"❌ 퀴즈 추가 실패: {err}")
 
+    def get_category_summary(self) -> str:
+        """등록된 퀴즈들의 카테고리별 수량을 요약합니다."""
+        counts: Dict[str, int] = {}
+        for quiz in self.quizzes:
+            cat = quiz.category
+            counts[cat] = counts.get(cat, 0) + 1
+        summary_items = [f"{cat} ({cnt}개)" for cat, cnt in counts.items()]
+        return ", ".join(summary_items) if summary_items else "없음"
+
     def show_quizzes(self) -> None:
         """퀴즈 목록 조회"""
         print("\n--- [ 전체 퀴즈 목록 ] ---")
@@ -312,11 +321,12 @@ class QuizGame:
             print("현재 저장된 퀴즈가 없습니다.")
             return
 
-        print(f"총 {len(self.quizzes)}개의 퀴즈가 등록되어 있습니다.\n")
+        print(f"총 {len(self.quizzes)}개의 퀴즈가 등록되어 있습니다.")
+        print(f"카테고리별 현황: {self.get_category_summary()}\n")
         for idx, quiz in enumerate(self.quizzes, 1):
             quiz.display(number=idx)
             correct_text = quiz.choices[quiz.answer - 1]
-            print(f"  👉 정답: {correct_text}")
+            print(f"  👉 정답: {quiz.answer}번 ({correct_text})")
 
     def show_best_score(self) -> None:
         """최고 점수 및 기록 확인"""
